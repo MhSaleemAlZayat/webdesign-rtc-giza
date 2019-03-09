@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Simple Web Form With Fieldset</title>
+        <style>
+            li {
+                list-style: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Simple Web Form With FieldSet</h1>
+        <form action="mailinglist.php" method="GET">
+            <fieldset>
+                <legend>Subscripe With our mailing list</legend>
+                <ol>
+                    <li>
+                        <label for="name">Full Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Please enter your name.">
+                    </li>
+                    <li>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Please enter your email.">
+                    </li>
+                    <li><input type="submit" value="Send"></li>
+                </ol>
+            </fieldset>
+        </form>
+    </body>
+</html>
