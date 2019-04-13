@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Floating Block Element</title>
+        <style>
+            *{
+                box-sizing: border-box;
+                color:white;
+                text-align: center;
+                
+            }
+            div{padding: 50px;}
+            .box1float{
+                float:left;
+                width: 50%;
+            }
+            .box2float{
+                float:left;
+                width: 33.33%;
+            }
+            .box3image{
+                float:left;
+                width: 33.33%;
+                overflow: auto;
+                display: table;
+                padding: 0;
+            }
+            .clear{
+                clear: both;
+                height: 50px;
+            }
+            
+        </style>
+    </head>
+    <body>
+            <div class="box1float" style="background-color:#130661;">Box (1) 50%</div>
+            <div class="box1float" style="background-color:#1b0b7f;">Box (2) 50%</div>
+            <div class="clear"></div>
+            <div class="box2float" style="background-color:#130661;">Box (1) 33.33%</div>
+            <div class="box2float" style="background-color:#1b0b7f;">Box (2) 33.33%</div>
+            <div class="box2float" style="background-color:#341ebe;">Box (3) 33.33%</div>
+            <div class="clear"></div>
+            <div class="box2float" style="background-color:#130661;">
+                <img src="imgs/bg-cover.jpg" width="200" height="200">
+            </div>
+            <div class="box2float" style="background-color:#1b0b7f;">
+                    <img src="imgs/villa.jpg" width="200" height="200">
+            </div>
+            <div class="box2float" style="background-color:#341ebe;">
+                    <img src="imgs/bg-cover.jpg" width="200" height="200">
+            </div>
+            <div class="clear"></div>
+            <h3 style="color:black;">With dispaly as table</h3>
+            <div class="box3image" style="background-color:#130661;">
+                <img src="imgs/bg-cover.jpg" width="200" height="200">
+            </div>
+            <div class="box3image" style="background-color:#1b0b7f;">
+                    <img src="imgs/villa.jpg" width="200" height="200">
+            </div>
+            <div class="box3image" style="background-color:#341ebe;">
+                    <img src="imgs/bg-cover.jpg" width="200" height="200">
+            </div>
+    </body>
+</html>
