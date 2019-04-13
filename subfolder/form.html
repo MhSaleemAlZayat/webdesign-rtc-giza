@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Forms</title>
+        <style>
+            div{
+                margin:15px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome To Forms</h1>
+        <form>
+            <div style="margin:10px;" >
+                    <input type="button" value="Button" onclick="sayHello()">
+            </div>
+            <div>
+                    <input type="text" placeholder="Add Some thing">
+            </div>
+            <div>   
+                    <input id="ch1" type="checkbox" value="1" checked>
+                    <label for="ch1">Checked</label>
+            </div>
+            <div>
+                    <input type="checkbox" value="2">
+                    <label for="ch1">Not Checked</label>
+            </div>
+            <div>
+                    <label for="colored">Select Your Color</label>
+                <input id="colored" type="color">
+                
+            </div>
+            <div>
+                    <label for="date">Date:</label>
+                <input id="date" type="date">
+            </div>
+            <div>
+                <label for="datetime">Date Time</label>
+                <input id="datetime" type="datetime">
+            </div>
+            <div>
+                <label>Date Local</label>
+                <input type="datetime-local">
+            </div>
+            <div>
+                <label>Email:</label>
+                <input type="email">
+            </div>
+            <div>
+                <label>File:</label>
+                <input type="file">
+            </div>
+            <div>
+                <label>Hidden:</label>
+                <input type="hidden">
+            </div>
+            <!-- <div>
+                <label>Image:</label>
+                <input type="image" >
+            </div> -->
+            <div>
+                    <label>Month</label>
+                    <input type="month">
+            </div>
+            <div>
+                <label for="">Password:</label>
+                <input type="password">
+            </div>
+
+        </form>
+        <script>
+            function sayHello(){
+                alert('Hello RTC!!!');
+            }
+        </script>
+    </body>
+</html>
