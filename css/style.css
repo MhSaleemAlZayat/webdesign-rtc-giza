@@ -41,3 +41,6 @@ p {
     border:1px dotted red;
     background-clip: padding-box;
 }
+img {
+    /* float: right; */
+}
